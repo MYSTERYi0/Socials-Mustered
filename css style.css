@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+* {
+	padding-left: 5px;
+	margin: 0%;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+body {
+	font-family: 'Zen Loop', cursive;
+	background: fixed;
+	background-color: #000000;
+}
+
+.h2class {
+	font-size: 3.5em;
+	color: aliceblue;
+	display: flex;
+	font-weight: bold;
+	justify-content: center;
+}
+
+.head2 {
+	font-family: 'Inconsolata', monospace;
+	color: rgba(167, 160, 160, 0.808);
+	display: flex;
+	justify-content: center;
+}
+
+.three {
+	flex: 50 20 10;
+	display: flex;
+	height: 240px;
+	width: 1000px;
+}
+
+.social:hover {
+	-webkit-animation: wobble-hor-bottom 0.8s both;
+	animation: wobble-hor-bottom 0.8s both;
+}
+
+.reddit, .spo, .lin {
+	border-radius: 10px;
+}
+
+.socialtext {
+	color: #fff;
+}
+
+.fb,
+.social,
+.spo,
+.lin {
+	width: 20rem;
+	height: 10rem;
+	padding-left: 20px;
+	border-radius: 30px;
+}
+
+.igtext {
+	font-family: 'Inconsolata', monospace;
+	color: white;
+}
+
+.two {
+	padding-left: 200px;
+	display: flex;
+}
+
+.social {
+	width: 410px;
+	height: 210px;
+	padding: 0;
+	margin-top: 10px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
+	flex-wrap: wrap;
+}
+
+.social * {
+	transition: 0.5s ease all;
+}
+
+.social img {
+	margin-top: 10px;
+	margin: 0;
+	object-fit: none;
+	width: 310px;
+	height: 160px;
+	object-fit: fill;
+	display: block;
+	margin-top: 45px;
+}
+
+.social h3 {
+	color: #fff;
+	margin: 0;
+	padding: 12px 12px 48px;
+	/* line-hesocialht: 32px;
+  /* font-wesocialht: 500;  */
+	font-size: 20px;
+}
+
+.social .focus-content {
+	font-family: 'Inconsolata', monospace;
+	display: block;
+	padding: 8px 12px;
+	color: #fff;
+	overflow: hidden;
+}
+
+.social p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+.social:hover img,
+.social:focus-within img {
+	margin-top: -80px;
+}
+
+.social:hover h3,
+.social:focus-within h3 {
+	padding: 8px 12px 0;
+}
+
+.fb {
+	margin-top: 7px;
+}
+
+/* ______________________FB_________________________ */
+
+.fb {
+	width: 300px;
+	height: 200px;
+	padding: 0;
+	/* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); */
+	border-radius: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.fb * {
+	transition: 0.3s ease all;
+}
+
+.fb img {
+	margin: 0;
+	object-fit: none;
+	width: 310px;
+	height: 160px;
+	object-fit: cover;
+	display: block;
+	margin-top: 45px;
+}
+
+.fb h3 {
+	color: #fff;
+	margin: 0;
+	padding: 12px 12px 48px;
+	/* line-hefbht: 32px;
+  /* font-wefbht: 500;  */
+	font-size: 20px;
+}
+
+.fb .focus-content {
+	display: block;
+	padding: 8px 12px;
+	color: #fff;
+	overflow: hidden;
+}
+
+.fb p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+.fb:hover img,
+.fb:focus-within img {
+	margin-top: -80px;
+}
+
+.fb:hover h3,
+.fb:focus-within h3 {
+	padding: 8px 12px 0;
+}
+
+/* _____________Github____________________________ */
+
+.git {
+	width: 315px;
+	height: 160px;
+	padding: 0;
+	/* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); */
+	border-radius: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.git * {
+	transition: 0.3s ease all;
+}
+
+.git img {
+	margin: 0;
+	object-fit: none;
+	width: 310px;
+	height: 160px;
+	object-fit: s;
+	display: block;
+	margin-top: 45px;
+}
+
+.git h3 {
+	color: #fff;
+	margin: 0;
+	padding: 12px 12px 48px;
+	/* line-hegitht: 32px;
+  /* font-wegitht: 500;  */
+	font-size: 20px;
+}
+
+.git .focus-content {
+	display: block;
+	padding: 8px 12px;
+	color: #fff;
+	overflow: hidden;
+}
+
+.git p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+.git:hover img,
+.git:focus-within img {
+	margin-top: -80px;
+}
+
+.git:hover h3,
+.git:focus-within h3 {
+	padding: 8px 12px 0;
+}
+
+/* _______________Lin___________________________ */
+
+.lin {
+	width: 310px;
+	height: 160px;
+	padding: 0;
+	/* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); */
+	border-radius: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.lin * {
+	transition: 0.3s ease all;
+}
+
+.lin img {
+	margin: 0;
+	object-fit: none;
+	width: 310px;
+	height: 160px;
+	object-fit: cover;
+	display: block;
+	margin-top: 45px;
+}
+
+.lin h3 {
+	color: #fff;
+	margin: 0;
+	padding: 12px 12px 48px;
+	/* line-helinht: 32px;
+  /* font-welinht: 500;  */
+	font-size: 20px;
+}
+
+.lin .focus-content {
+	display: block;
+	padding: 8px 12px;
+	color: #fff;
+	overflow: hidden;
+}
+
+.lin p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+.lin:hover img,
+.lin:focus-within img {
+	margin-top: -80px;
+}
+
+.lin:hover h3,
+.lin:focus-within h3 {
+	padding: 8px 12px 0;
+}
